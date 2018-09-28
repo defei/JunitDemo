@@ -329,9 +329,13 @@ public class RepositoryUserServiceTest {
 
 同时，我也非常希望听到你们所使用的命名约定。
 
+### 参考资料
 
+[什么是 Mock 测试](https://waylau.com/mockito-quick-start/)
+[Mockito Tutorial for Beginners](https://examples.javacodegeeks.com/core-java/mockito/mockito-tutorial-beginners/)
+[Mockito Tutorial](https://www.tutorialspoint.com/mockito/)
+[编写干净的单元测试 - 命名很重要](http://lzxz1234.github.io/junit/2014/06/07/Writing-Clean-Tests.html)
 
 ### 特别感谢
-[编写干净的单元测试 - 命名很重要](http://lzxz1234.github.io/junit/2014/06/07/Writing-Clean-Tests.html)
 
 [in28minutes](https://github.com/in28minutes/MockitoIn28Minutes)
