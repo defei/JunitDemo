@@ -63,7 +63,11 @@
 - Step 06 : 模拟依赖测试逻辑(注入并指定运行器) `org.codelogger.tutorial.business.TodoBusinessImplMockitoInjectMocksTest` 
 - Step 07 : 模拟依赖测试逻辑(注入并指定规则) `org.codelogger.tutorial.business.TodoBusinessImplMockitoRulesTest`
  
- #### PowerMock
+#### PowerMock
  - Step 01 : 构造函数值测试 `org.codelogger.tutorial.mockito.MockTest` 
  - Step 02 : 静态方法测试 `org.codelogger.tutorial.powermock.PowerMockitoMockingStaticMethodTest.powerMockito_MockingAStaticMethodCall` 
- - Step 03 : private方法测试 `org.codelogger.tutorial.powermock.PowerMockitoTestingPrivateMethodTest` 
+ - Step 03 : private方法测试 `org.codelogger.tutorial.powermock.PowerMockitoTestingPrivateMethodTest`
+  
+  
+#### 特别感谢
+[in28minutes](https://github.com/in28minutes/MockitoIn28Minutes)
