@@ -17,6 +17,7 @@ import static org.mockito.Mockito.*;
  */
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({SystemUnderTest.class})
+@SuppressWarnings("unchecked")
 public class PowerMockitoMockingConstructorTest {
 
     private static final int SOME_DUMMY_SIZE = 100;
