@@ -48,25 +48,28 @@
 ### 课程列表
 
 #### JUnit
-- Step 01 : 认识Junit，访问类`org.codelogger.tutorial.junit.FirstJunitTest`
-- Step 02 : 异常测试，和性能测试 访问类`org.codelogger.tutorial.junit.ArrayListTest`
-- Step 03 : 测试用例执行顺序 访问类`org.codelogger.tutorial.junit.QuickBeforeAfterTest`
-- Step 04 : 参数化测试 访问类`org.codelogger.tutorial.junit.helper.StringHelperParameterizedTest`
-- Step 04 : Hamcrest测试 访问类`org.codelogger.tutorial.junit.HamcrestMatcherTest`, 更多的请看[Hamcrest](Hamcrest.md)
+ - Step 01 : 认识Junit，访问类`org.codelogger.tutorial.junit.FirstJunitTest`
+ - Step 02 : 异常测试，和性能测试 访问类`org.codelogger.tutorial.junit.ArrayListTest`
+ - Step 03 : 测试用例执行顺序 访问类`org.codelogger.tutorial.junit.QuickBeforeAfterTest`
+ - Step 04 : 参数化测试 访问类`org.codelogger.tutorial.junit.helper.StringHelperParameterizedTest`
+ - Step 04 : Hamcrest测试 访问类`org.codelogger.tutorial.junit.HamcrestMatcherTest`, 更多的请看[Hamcrest](Hamcrest.md)
 
 #### Mockito
-- Step 01 : 非透传模拟 `org.codelogger.tutorial.mockito.MockTest` 
-- Step 02 : 透传模拟 `org.codelogger.tutorial.mockito.SpyTest` 
-- Step 03 : 模拟依赖测试逻辑(非注入) `org.codelogger.tutorial.mockito.SpyTest` 
-- Step 04 : 模拟依赖测试逻辑(非注入) `org.codelogger.tutorial.mockito.SpyTest` 
-- Step 05 : 模拟依赖测试逻辑(非注入) `org.codelogger.tutorial.business.TodoBusinessImplMockitoTest` 
-- Step 06 : 模拟依赖测试逻辑(注入并指定运行器) `org.codelogger.tutorial.business.TodoBusinessImplMockitoInjectMocksTest` 
-- Step 07 : 模拟依赖测试逻辑(注入并指定规则) `org.codelogger.tutorial.business.TodoBusinessImplMockitoRulesTest`
+ - Step 01 : 非透传模拟 `org.codelogger.tutorial.mockito.MockTest` 
+ - Step 02 : 透传模拟 `org.codelogger.tutorial.mockito.SpyTest` 
+ - Step 03 : 模拟依赖测试逻辑(非注入) `org.codelogger.tutorial.mockito.SpyTest` 
+ - Step 04 : 模拟依赖测试逻辑(非注入) `org.codelogger.tutorial.mockito.SpyTest` 
+ - Step 05 : 模拟依赖测试逻辑(非注入) `org.codelogger.tutorial.business.TodoBusinessImplMockitoTest` 
+ - Step 06 : 模拟依赖测试逻辑(注入并指定运行器) `org.codelogger.tutorial.business.TodoBusinessImplMockitoInjectMocksTest` 
+ - Step 07 : 模拟依赖测试逻辑(注入并指定规则) `org.codelogger.tutorial.business.TodoBusinessImplMockitoRulesTest`
 
 #### PowerMock
  - Step 01 : 构造函数值测试 `org.codelogger.tutorial.mockito.MockTest` 
  - Step 02 : 静态方法测试 `org.codelogger.tutorial.powermock.PowerMockitoMockingStaticMethodTest.powerMockito_MockingAStaticMethodCall` 
  - Step 03 : private方法测试 `org.codelogger.tutorial.powermock.PowerMockitoTestingPrivateMethodTest`
+
+#### JPA with h2
+ - Step 01 : 使用h2内存数据库检验JPA操作 `org.codelogger.tutorial.jpa.repository.CatRepositoryTest`
 
 ### 注意事项
 
