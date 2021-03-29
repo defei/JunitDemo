@@ -381,11 +381,28 @@ public class RepositoryUserServiceTest {
 
 ### 参考资料
 
-[什么是 Mock 测试](https://waylau.com/mockito-quick-start/)
-[Mockito Tutorial for Beginners](https://examples.javacodegeeks.com/core-java/mockito/mockito-tutorial-beginners/)
-[Mockito Tutorial](https://www.tutorialspoint.com/mockito/)
-[编写干净的单元测试 - 命名很重要](http://lzxz1234.github.io/junit/2014/06/07/Writing-Clean-Tests.html)
+- [什么是 Mock 测试](https://waylau.com/mockito-quick-start/)
+- [Mockito Tutorial for Beginners](https://examples.javacodegeeks.com/core-java/mockito/mockito-tutorial-beginners/)
+- [Mockito Tutorial](https://www.tutorialspoint.com/mockito/)
+- [编写干净的单元测试 - 命名很重要](http://lzxz1234.github.io/junit/2014/06/07/Writing-Clean-Tests.html)
 
 ### 特别感谢
 
 [in28minutes](https://github.com/in28minutes/MockitoIn28Minutes)
+
+## 效果验收
+
+
+通过ide的coverage插件，查看覆盖率
+
+![RunWithCoverage](docs/RunWithCoverage.jpg)
+
+运行结果会有类似以下的统计结果
+
+![RunWithCoverage](docs/CoverageStatistic.jpg)
+
+大致上要求核心逻辑mthod全覆盖，line覆盖率达到70%以上。但是覆盖率本身只作参考，我们写测试还是需要针业务来写，而不是针对覆盖率来写。
+
+### 参考文档
+
+- [测试覆盖（率）到底有什么用？](https://www.infoq.cn/article/test-coverage-rate-role)
